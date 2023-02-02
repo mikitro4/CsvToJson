@@ -8,7 +8,7 @@
     </head>
     <body>
         <?php
-            $csvFile = file('file.csv');
+            $csvFile = file('doc.csv');
             $data = array();
             foreach ($csvFile as $line)
                 $data[] = str_getcsv($line);
